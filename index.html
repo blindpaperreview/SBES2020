@@ -53,7 +53,7 @@
 	<div class="container container-gral">
 
 		<div class="page-title">
-			<h1>Are Code Smell Co-occurrences Harmful to Internal Quality Attributes? A Mixed-Method Study 
+			<h1>How do Code Smell Co-occurrences Removal Impact InternalQuality Attributes? A Developers’ Perspective
 			<!--<br><small>An Empirical Study</small></h1> -->
 			
 			
@@ -64,9 +64,26 @@
 
 		<h3 id="abstract" class="page-header">Abstract</h3>
 		<p class="text-justify">
-            Previous studies demonstrated how code smells (i.e., symptoms of the presence of system degradation) impact the software maintainability. However, few studies have investigated which code smell types tend to co-occur in the source code. Moreover, it is not clear to what extent the removal of code smell co-occurrences -- through refactoring operations -- has a positive impact on quality attributes such as cohesion, coupling, inheritance, complexity, and size.  We aim at addressing these gaps through an empirical study. 
-            By investigating the impact of the smells co-occurrences in 11 releases of 3 closed-source systems, we observe (i) which code smells tend to co-occur together, (ii) the impact of the removal of code smell co-occurrences on quality internal attributes before and after refactoring, and (iii) which are the most difficult co-occurrences to refactoring from the developers’ perspective. Our results show that 2 types of code smell co-occurrences generally tend to co-occur. Moreover, we observed that the removal of code smells co-occurrences lead to a significant reduction in the complexity of the systems studied was obtained. Conversely, cohesion and coupling tend to get worse. We also found that two code smells co-occurrences <i>(God Class - Long Method) </i> and <i>Disperse Coupling - Long Method)</i> as the most difficult to refactor indicating that attention is needed to not insert these anomalies in the source code.
-            Based on our findings, we argue that further research is needed on the impact of code smells co-occurrences on internal quality attributes.
+      Code smells are poor code structures that might harm the software quality and evolution. 
+      However, recent work has shown that only individual occurrences of smells may not be enough to assess
+       the real impact that these smells can bring on systems. In this context,the co-occurrences of code smells, 
+       i.e., occurrences of more than one code smell in the same class or same method, can be better indicators 
+       of design problems for software quality. Despite its importance as an indicator of design problems, 
+       we have little known about their impact of removing the co-occurrence of smells via software refactoring 
+       on internal quality attributes, such as coupling, cohesion,complexity, and inheritance. 
+       We aim at addressing this gap through a qualitative study with 14 developers. 
+       To this end, we analyze there factorings employed by developers during the removal of 
+       60 codes mells co-occurrences, during 3 months in 5 closed-source projects. 
+       We observe (i) impact of code smells co-occurrences on internal quality attributes, 
+       (ii) developers’ perceptions during the removal of code smells co-occurrence via refactoring activities, 
+       (iii) which are the most harmful co-occurrences to internal quality attributes,and (iv) 
+       which are the most harmful co-occurrences from the developers’ perspective. 
+       Our findings indicate that: (i) the refactoring of some types of code smells co-occurrences 
+       (e.g., Dispersed Coupling–God Class) indicated improvement for the quality attributes, 
+       (ii)refactoring code smells co-occurrences according to the developers is difficult mainly 
+       due to the understanding of the code and complexity refactoring methods, 
+       (iii) developers still have insecurities regarding the identification and refactoring of code smells 
+       and their co-occurrences.
             
 		</p>
 
