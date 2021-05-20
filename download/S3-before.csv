@@ -1,0 +1,929 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package,br,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,,,,0,,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package,br.,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,,,,0,,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package,br..,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,,,,0,,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package,br...,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,,,,0,,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package,br....gestaoriscos,1,1,1,1,3,0,3,0,,,,,3,1,0,,3,,2,0,,,,3,,0,0,1,2,,49,,,,16,,,,33,,,24,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.GestaoCompetenciaApplication,1,1,1,1,3,0,3,0,1,1,1,0,,1,0,,,,0,0,,,,1,1,0,0,0,1,,6,,,,1,,,,5,,,2,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Static Method,br....gestaoriscos.GestaoCompetenciaApplication.main,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.ServletInitializer,1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,1,0,,,,1,1,0,0,1,0,,8,,,,2,,,,6,,,3,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Protected Method,br....gestaoriscos.ServletInitializer.configure,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.WebConfig,1,1,1,1,4,0,4,0,2,2,2,0,,0,0,,,,1,0,,,,1,1,0,0,0,1,,9,,,,2,,,,7,,,4,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.WebConfig.passwordEncoder,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,,,,0,,,,4,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package,br....gestaoriscos.config,1,1,1,1,9,1,8,0,,,,,6,0,0,,6,,17,7,,,,17,,0,0,2,15,,310,,,,68,,,,240,,,135,100,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.config.CorsFilter,1,1,2,1,7,0,6,1,2,9,9,0,,0,0,,,,3,0,,,,3,3,0,0,0,3,,28,,,,4,,,,22,,,7,13,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.CorsFilter.destroy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,2,,,1,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.CorsFilter.doFilter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,,,,0,,,,16,,,4,13,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.CorsFilter.init,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,2,,,1,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.config.JwtConfigurer,1,1,1,1,3,0,3,0,1,6,6,0,,0,0,,,,2,1,,,,2,2,0,0,0,2,,15,,,,4,,,,11,,,6,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Constructor,br....gestaoriscos.config.JwtConfigurer.JwtConfigurer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.JwtConfigurer.configure,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,,,,0,,,,4,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.config.JwtTokenFilter,2,2,3,1,19,4,15,0,1,17,17,0,,0,0,,,,2,1,,,,2,2,0,0,0,2,,47,,,,12,,,,35,,,15,23,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Constructor,br....gestaoriscos.config.JwtTokenFilter.JwtTokenFilter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.JwtTokenFilter.doFilter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,36,,,,8,,,,28,,,11,22,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.config.JwtTokenProvider,1,1,1,1,8,1,7,1,1,17,17,0,,0,0,,,,7,3,,,,7,7,0,0,1,6,,83,,,,20,,,,63,,,26,38,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.JwtTokenProvider.createRefreshToken,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,,,,3,,,,13,,,5,11,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.JwtTokenProvider.createToken,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,15,,,,3,,,,12,,,4,10,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.JwtTokenProvider.getAuthentication,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.JwtTokenProvider.getUsername,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Protected Method,br....gestaoriscos.config.JwtTokenProvider.init,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.JwtTokenProvider.resolveToken,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,2,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.JwtTokenProvider.validateToken,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,,,,2,,,,11,,,2,7,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.config.UserDetailsCustom,2,2,2,1,9,1,8,0,2,7,7,0,,0,0,,,,1,1,,,,1,1,0,0,0,1,,18,,,,5,,,,13,,,6,5,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.UserDetailsCustom.loadUserByUsername,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,,,,1,,,,8,,,2,5,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.config.WebSecurityConfig,1,1,1,1,11,0,11,1,1,10,10,0,,0,0,,,,2,1,,,,2,2,0,0,1,1,,34,,,,5,,,,29,,,8,18,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.config.WebSecurityConfig.authenticationManagerBean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Protected Method,br....gestaoriscos.config.WebSecurityConfig.configure,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,,,,0,,,,19,,,1,17,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Package,br....gestaoriscos.controller,1,1,1,1,6,0,6,0,,,,,19,0,0,,19,,108,33,,,,108,,0,0,0,108,,1475,,,,269,,,,1197,,,691,382,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.AcaoController,1,1,1,1,7,0,7,0,1,16,16,0,,0,0,,,,5,2,,,,5,5,0,0,0,5,,52,,,,7,,,,45,,,17,21,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AcaoController.atualizar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,,,,0,,,,12,,,2,9,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AcaoController.cadastrar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,,,,0,,,,5,,,1,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AcaoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AcaoController.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AcaoController.findByUsuario,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.AreaAtuacaoController,1,1,1,1,5,0,5,0,1,14,14,0,,0,0,,,,4,2,,,,4,4,0,0,0,4,,37,,,,6,,,,31,,,13,11,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AreaAtuacaoController.atualizar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,0,,,,8,,,1,5,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AreaAtuacaoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AreaAtuacaoController.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AreaAtuacaoController.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.AuthController,2,2,2,1,17,2,15,0,1,15,15,0,,0,0,,,,1,3,,,,1,1,0,0,0,1,,33,,,,9,,,,24,,,13,12,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AuthController.signin,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,,,,2,,,,15,,,5,12,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.AuthenticationRequest,1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,7,2,,,,7,7,0,0,0,7,,35,,,,10,,,,25,,,10,7,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Constructor,br....gestaoriscos.controller.AuthenticationRequest.AuthenticationRequest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,1,,,,2,,,1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Constructor,br....gestaoriscos.controller.AuthenticationRequest.AuthenticationRequest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AuthenticationRequest.getEmail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AuthenticationRequest.getPassword,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AuthenticationRequest.getUsername,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AuthenticationRequest.setEmail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AuthenticationRequest.setPassword,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.AvaliacaoControleController,1,1,1,1,5,0,5,0,1,18,18,0,,0,0,,,,6,2,,,,6,6,0,0,0,6,,58,,,,10,,,,48,,,22,18,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoControleController.atualizar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,0,,,,9,,,1,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoControleController.cadastrar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoControleController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoControleController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoControleController.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoControleController.listarAvaliacoesControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,,,,1,,,,4,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.AvaliacaoController,1,1,1,1,5,0,5,0,1,20,20,0,,0,0,,,,9,1,,,,9,9,0,0,0,9,,86,,,,16,,,,61,,,29,24,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.buscaAvalicoesRecentes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.buscarAvaliacoesRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.cadastraAvaliacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,,,,0,,,,5,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.countRiscos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.findByRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.findLastByRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.AvaliacaoController.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,,,,2,,,,13,,,3,10,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.CategoriaRiscoController,1,1,1,1,5,0,5,0,1,16,16,0,,0,0,,,,4,2,,,,4,4,0,0,0,4,,46,,,,13,,,,33,,,15,11,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.CategoriaRiscoController.atualizar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,0,,,,8,,,1,5,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.CategoriaRiscoController.cadastrarUmaCategoria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.CategoriaRiscoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.CategoriaRiscoController.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.ExceptionHandlingController,1,1,1,1,7,0,7,0,1,12,12,0,,0,0,,,,6,0,,,,6,6,0,0,0,6,,61,,,,10,,,,51,,,23,31,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ExceptionHandlingController.fileUpload,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,8,,,3,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ExceptionHandlingController.handleAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,8,,,3,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ExceptionHandlingController.handleResourceNotFound,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,8,,,3,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ExceptionHandlingController.invalidJwtAuthentication,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,,,,1,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ExceptionHandlingController.notAllowed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,0,,,,8,,,3,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ExceptionHandlingController.resourceAlreadyExist,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,8,,,3,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.ImpactoController,1,1,1,1,5,0,5,0,1,17,17,0,,0,0,,,,5,2,,,,5,5,0,0,0,5,,52,,,,11,,,,41,,,17,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ImpactoController.atualizar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,0,,,,9,,,1,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ImpactoController.cadastrar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ImpactoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ImpactoController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.ImpactoController.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.NivelRiscoController,1,1,1,1,6,0,6,0,1,18,18,0,,0,0,,,,6,2,,,,6,6,0,0,0,6,,62,,,,10,,,,52,,,21,23,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.NivelRiscoController.atualizar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,,,,1,,,,14,,,1,11,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.NivelRiscoController.cadastrar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.NivelRiscoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.NivelRiscoController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.NivelRiscoController.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.NivelRiscoController.listarNiveisRiscoPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,,,,1,,,,4,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Class,br....gestaoriscos.controller.OcorrenciaController,1,1,1,1,6,0,5,0,1,24,24,0,,0,0,,,,9,2,,,,9,9,0,0,0,9,,88,,,,18,,,,70,,,34,28,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.OcorrenciaController.buscarOcorrenciaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.OcorrenciaController.cadastraOcorrencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,,,,2,,,,9,,,2,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.OcorrenciaController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.OcorrenciaController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Public Method,br....gestaoriscos.controller.OcorrenciaController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.controller.OcorrenciaController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.controller.OcorrenciaController.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.controller.OcorrenciaController.listaOcorrencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,,,,1,,,,7,,,2,4,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.controller.OcorrenciaController.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,,,,3,,,,13,,,3,10,0,,,,,,,16,22,19,,,4,,,,,,,,1,1,1,1,,,0,,,,0.00,3,3,3,3
+Public Class,br....gestaoriscos.controller.PlanoController,2,2,2,1,6,0,6,0,1,17,17,0,,0,0,,,,6,1,,,,6,6,0,0,0,6,,65,,,,13,,,,52,,,22,23,0,,,,,,,1,3,2,,,1,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoController.cadastrarPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,,,,0,,,,9,,,2,6,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,1,3,2,,,1,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,3,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoController.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,2,4,3,,,2,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoController.findPlanoVigente,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoController.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,,,,2,,,,13,,,3,10,0,,,,,,,129,160,116,,,64,,,,,,,,4,4,6,3,,,3,,,,0.07,26,26,31,19
+Public Class,br....gestaoriscos.controller.PlanoDeContingenciaController,1,1,1,1,6,0,5,0,1,20,20,0,,0,0,,,,6,2,,,,6,6,0,0,0,6,,65,,,,14,,,,51,,,25,21,0,,,,,,,11,16,7,,,10,,,,,,,,3,3,6,1,,1,1,,0,0,0.14,5,5,8,3
+Public Method,br....gestaoriscos.controller.PlanoDeContingenciaController.buscarAvaliacoesRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,2,2,0,,,,0,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.50,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoDeContingenciaController.cadastrarPlanoContingencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,,,,0,,,,6,,,1,4,0,,,,7,2,0,11,13,4,,,10,,,3,3,6,1,1,,,,,0,,1,0,,,0.06,3,3,6,1
+Public Method,br....gestaoriscos.controller.PlanoDeContingenciaController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,0,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.50,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoDeContingenciaController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,,,,4,7,5,,,3,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Public Method,br....gestaoriscos.controller.PlanoDeContingenciaController.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoDeContingenciaController.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,,,,4,,,,11,,,3,8,0,,,,2,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.controller.PlanoDeTratamentoController,3,3,3,1,8,0,8,0,1,19,19,0,,0,0,,,,5,2,,,,5,5,0,0,0,5,,66,,,,10,,,,56,,,22,29,0,,,,,,,20,26,13,,,20,,,,,,,,4,4,5,1,,2,3,,0,0,0.00,5,5,6,2
+Public Method,br....gestaoriscos.controller.PlanoDeTratamentoController.cadastrarPlanoDeTratamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,1,,,,6,,,1,4,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoDeTratamentoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,19,4,1,18,22,10,,,19,,,4,4,5,1,2,,,,,0,,3,0,,,0.00,4,4,5,1
+Public Method,br....gestaoriscos.controller.PlanoDeTratamentoController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,,,,25,36,21,,,25,,,,,,,,3,3,3,3,,1,2,,61,57,0.17,10,10,11,9
+Public Method,br....gestaoriscos.controller.PlanoDeTratamentoController.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,17,1,0,6,7,5,,,6,,,1,1,1,1,0,,,,,0,,0,0,,,0.38,1,1,1,1
+Public Method,br....gestaoriscos.controller.PlanoDeTratamentoController.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,,,,2,,,,21,,,3,18,0,,,,11,1,0,5,6,4,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.42,1,1,1,1
+Public Class,br....gestaoriscos.controller.ProbabilidadeController,1,1,1,1,5,0,5,0,1,17,17,0,,0,0,,,,5,2,,,,5,5,0,0,0,5,,49,,,,8,,,,41,,,17,16,0,,,,5,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.ProbabilidadeController.atualizar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,0,,,,9,,,1,6,0,,,,6,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.ProbabilidadeController.cadastrar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.ProbabilidadeController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,5,2,0,3,5,2,,,4,,,2,2,3,1,1,,,,,0,,1,0,,,0.00,2,2,3,1
+Public Method,br....gestaoriscos.controller.ProbabilidadeController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,8,3,0,4,7,2,,,6,,,3,3,3,3,3,,,,,3,,2,3,,,0.00,3,3,3,3
+Public Method,br....gestaoriscos.controller.ProbabilidadeController.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,3,0,,,,,,,4,7,4,,,4,,,,,,,,2,2,2,1,,1,1,,0,0,0.00,2,2,2,1
+Public Class,br....gestaoriscos.controller.RespostaRiscoController,1,1,1,1,6,0,6,0,1,17,17,0,,0,0,,,,5,2,,,,5,5,0,0,0,5,,53,,,,9,,,,44,,,18,18,0,,,,2,2,0,3,5,2,,,4,,,2,2,2,1,2,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.controller.RespostaRiscoController.atualizar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,,,,1,,,,11,,,1,8,0,,,,,,,3,6,4,,,2,,,,,,,,1,1,1,1,,2,0,,50,50,0.10,2,2,2,2
+Public Method,br....gestaoriscos.controller.RespostaRiscoController.cadastrar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.RespostaRiscoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,16,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.16,1,1,1,1
+Public Method,br....gestaoriscos.controller.RespostaRiscoController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,,,,593,768,469,,,345,,,,,,,,14,14,14,3,,,1,,,,0.01,187,187,187,110
+Public Method,br....gestaoriscos.controller.RespostaRiscoController.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,3,0,,,,,,,19,28,9,,,20,,,,,,,,2,2,2,1,,1,1,,50,50,0.00,8,8,8,5
+Public Class,br....gestaoriscos.controller.RiscoController,2,2,2,1,9,1,8,0,1,24,24,0,,0,0,,,,8,2,,,,8,8,0,0,0,8,,103,,,,21,,,,82,,,30,41,0,,,,15,2,0,8,10,2,,,9,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.controller.RiscoController.cadastrar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,,,,0,,,,5,,,1,3,0,,,,7,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.RiscoController.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,,,,2,,,,10,,,1,6,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.RiscoController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,4,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.controller.RiscoController.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,5,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.controller.RiscoController.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,3,0,,,,,,,11,18,7,,,11,,,,,,,,2,2,2,1,,1,1,,37,37,0.00,6,6,6,4
+Public Method,br....gestaoriscos.controller.RiscoController.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,,,,0,,,,9,,,2,6,0,,,,9,2,0,4,6,1,,,5,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.controller.RiscoController.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,,,,3,,,,13,,,3,10,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.RiscoController.updatePlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,,,,5,,,,11,,,3,8,0,,,,4,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Class,br....gestaoriscos.controller.UnidadeController,1,1,1,1,6,0,6,0,1,19,19,0,,0,0,,,,8,1,,,,8,8,0,0,0,8,,83,,,,13,,,,70,,,31,29,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.UnidadeController.atualizaUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,,,,0,,,,9,,,2,6,0,,,,,,,13,16,9,,,11,,,,,,,,2,2,2,1,,1,1,,0,0,0.00,2,2,2,1
+Public Method,br....gestaoriscos.controller.UnidadeController.cadastraUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,,,,0,,,,9,,,2,6,0,,,,10,2,0,10,12,5,,,11,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.controller.UnidadeController.deletaUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,,,,0,,,,6,,,1,3,0,,,,,,,9,17,10,,,7,,,,,,,,1,1,1,1,,1,0,,50,50,0.00,7,7,7,7
+Public Method,br....gestaoriscos.controller.UnidadeController.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.UnidadeController.listaAcoesUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,3,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.UnidadeController.listaRiscosUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.UnidadeController.listaUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,,,,0,,,,7,,,2,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.UnidadeController.listaUnidades,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.controller.UsuarioController,1,1,1,1,3,0,3,0,1,7,7,0,,0,0,,,,3,1,,,,3,3,0,0,0,3,,20,,,,4,,,,16,,,9,3,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.UsuarioController.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.controller.UsuarioController.findByAutenticacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,17,27,11,,,18,,,,,,,,2,2,2,1,,1,1,,41,41,0.00,9,9,9,6
+Public Method,br....gestaoriscos.controller.UsuarioController.findTodos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,11,2,0,5,7,1,,,6,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Package,br....gestaoriscos.exception,1,1,1,1,3,0,3,0,,,,,9,1,1,,8,,34,16,,,,35,,0,1,0,34,,245,,,,70,,,,175,,,81,52,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.exception.ExceptionResponse,1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,8,4,,,,8,8,0,0,0,8,,81,,,,20,,,,61,,,25,21,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Static Class,br....gestaoriscos.exception.ExceptionResponse.ExceptionResponseBuilder,1,1,1,1,4,0,4,0,1,4,4,0,,1,0,,,,5,3,,,,6,6,0,1,0,5,,36,,,,6,,,,30,,,11,13,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Constructor,br....gestaoriscos.exception.ExceptionResponse.ExceptionResponseBuilder.ExceptionResponseBuilder,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,,,,0,,,,2,,,1,0,0,,,,5,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Static Method,br....gestaoriscos.exception.ExceptionResponse.ExceptionResponseBuilder.anExceptionResponseBuilder,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.ExceptionResponseBuilder.build,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,8,,,,0,,,,8,,,2,6,0,,,,,,,23,35,15,,,24,,,,,,,,6,6,6,1,,1,1,,0,0,0.15,15,15,15,9
+Public Method,br....gestaoriscos.exception.ExceptionResponse.ExceptionResponseBuilder.withError,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,,,,0,,,,4,,,1,2,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.ExceptionResponseBuilder.withMessage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,,,,0,,,,4,,,1,2,0,,,,2,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.ExceptionResponseBuilder.withStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,,,,0,,,,4,,,1,2,0,,,,5,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.getError,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.getMessage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.getStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,,,,0,,,,3,,,1,1,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.getTimestamp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.setError,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.setMessage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,16,2,0,9,11,3,,,10,,,6,6,6,1,1,,,,,0,,1,0,,,0.00,6,6,6,1
+Public Method,br....gestaoriscos.exception.ExceptionResponse.setStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,11,18,7,,,11,,,,,,,,2,2,2,1,,1,1,,37,37,0.00,6,6,6,4
+Public Method,br....gestaoriscos.exception.ExceptionResponse.setTimestamp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,9,2,0,4,6,1,,,5,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Class,br....gestaoriscos.exception.FileUploadException,1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,,,,1,1,0,0,0,1,,8,,,,3,,,,5,,,2,1,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.exception.FileUploadException.FileUploadException,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,4,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.exception.GestaoRiscosException,1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,4,2,,,,4,4,0,0,0,4,,24,,,,5,,,,19,,,8,6,0,,,,5,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Constructor,br....gestaoriscos.exception.GestaoRiscosException.GestaoRiscosException,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,,,,0,,,,4,,,1,2,0,,,,,,,11,18,12,,,11,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,6,6,6,6
+Public Constructor,br....gestaoriscos.exception.GestaoRiscosException.GestaoRiscosException,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,,,,0,,,,4,,,1,2,0,,,,8,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.GestaoRiscosException.getMessage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,9,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.GestaoRiscosException.getStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,9,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.exception.InvalidJwtAuthenticationException,1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,,,,1,1,0,0,0,1,,7,,,,2,,,,5,,,2,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.exception.InvalidJwtAuthenticationException.InvalidJwtAuthenticationException,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,9,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.exception.NotAllowedException,1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,,,,1,1,0,0,0,1,,8,,,,3,,,,5,,,2,1,0,,,,9,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.exception.NotAllowedException.NotAllowedException,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,15,24,9,,,16,,,,,,,,2,2,2,1,,1,1,,40,40,0.00,8,8,8,5
+Public Class,br....gestaoriscos.exception.ResourceAlreadyExistsException,1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,,,,1,1,0,0,0,1,,8,,,,3,,,,5,,,2,1,0,,,,11,2,0,5,7,1,,,6,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Constructor,br....gestaoriscos.exception.ResourceAlreadyExistsException.ResourceAlreadyExistsException,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.exception.ResourceNotFoundException,1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,4,3,,,,4,4,0,0,0,4,,27,,,,7,,,,20,,,8,7,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.exception.ResourceNotFoundException.ResourceNotFoundException,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,0,,,,6,,,1,4,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.exception.ResourceNotFoundException.getFieldName,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,5,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.exception.ResourceNotFoundException.getFieldValue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,22,32,11,,,23,,,,,,,,2,2,2,1,,1,1,,41,41,0.00,9,9,9,6
+Public Method,br....gestaoriscos.exception.ResourceNotFoundException.getResourceName,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,20,2,0,10,12,1,,,11,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Class,br....gestaoriscos.exception.StandardError,1,1,1,1,3,0,3,0,2,2,2,0,,0,1,,,,9,4,,,,9,9,0,0,0,9,,51,,,,13,,,,38,,,15,14,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.exception.StandardError.StandardError,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,,,,0,,,,7,,,1,5,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.StandardError.getError,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.exception.StandardError.getMessage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,5,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.exception.StandardError.getPath,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.StandardError.getStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,25,38,17,,,26,,,,,,,,6,6,6,1,,1,1,,50,50,0.00,16,16,16,9
+Public Method,br....gestaoriscos.exception.StandardError.setError,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.StandardError.setMessage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,8,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.exception.StandardError.setPath,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.exception.StandardError.setStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Package,br....gestaoriscos.model,1,1,1,1,3,0,3,0,,,,,18,0,0,,18,,314,133,,,,314,,1,1,0,312,,2070,,,,518,,,,1551,,,712,459,1,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.Acao,1,1,1,1,3,0,3,0,1,14,14,0,,0,0,,,,19,8,,,,19,19,0,0,0,19,,111,,,,27,,,,84,,,37,24,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.addAllAreas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,3,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.addArea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,3,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Acao.getAreas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,16,2,0,9,11,3,,,10,,,6,6,6,1,1,,,,,0,,1,0,,,0.00,6,6,6,1
+Public Method,br....gestaoriscos.model.Acao.getGestor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,19,29,11,,,21,,,,,,,,6,6,6,1,,1,1,,16,16,0.00,13,13,13,6
+Public Method,br....gestaoriscos.model.Acao.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,8,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Acao.getObjetivoGeral,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.getObjetivosEspecificos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Acao.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.getTitulo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.getUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,16,2,0,9,11,3,,,10,,,6,6,6,1,1,,,,,0,,1,0,,,0.00,6,6,6,1
+Public Method,br....gestaoriscos.model.Acao.removeArea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,,,,19,28,13,,,19,,,,,,,,4,4,4,1,,1,1,,50,50,0.00,10,10,10,6
+Public Method,br....gestaoriscos.model.Acao.setAreas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.setGestor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,8,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.setObjetivoGeral,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Acao.setObjetivosEspecificos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Acao.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,12,2,0,7,9,3,,,8,,,4,4,4,1,1,,,,,0,,1,0,,,0.00,4,4,4,1
+Public Method,br....gestaoriscos.model.Acao.setTitulo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,27,35,11,,,27,,,,,,,,14,14,14,1,,1,1,,50,50,0.00,19,19,19,5
+Public Method,br....gestaoriscos.model.Acao.setUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,8,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.AreaAtuacao,1,1,1,1,3,0,3,0,1,8,8,0,,0,0,,,,8,4,,,,8,8,0,0,0,8,,47,,,,12,,,,35,,,18,8,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AreaAtuacao.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AreaAtuacao.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AreaAtuacao.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,24,2,0,17,19,3,,,18,,,14,14,14,1,1,,,,,0,,1,0,,,0.00,14,14,14,1
+Public Method,br....gestaoriscos.model.AreaAtuacao.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,15,24,9,,,16,,,,,,,,2,2,2,1,,1,1,,40,40,0.00,8,8,8,5
+Public Method,br....gestaoriscos.model.AreaAtuacao.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,11,2,0,5,7,1,,,6,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AreaAtuacao.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AreaAtuacao.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AreaAtuacao.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Class,br....gestaoriscos.model.AvaliacaoControle,1,1,1,1,3,0,3,0,1,9,9,0,,0,0,,,,12,5,,,,12,12,0,0,0,12,,68,,,,18,,,,50,,,23,14,0,,,,5,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Constructor,br....gestaoriscos.model.AvaliacaoControle.AvaliacaoControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,1,,,,2,,,1,0,0,,,,,,,17,26,9,,,18,,,,,,,,2,2,2,1,,1,1,,40,40,0.00,8,8,8,5
+Public Constructor,br....gestaoriscos.model.AvaliacaoControle.AvaliacaoControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,,,,0,,,,6,,,1,4,0,,,,15,2,0,7,9,1,,,8,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoControle.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoControle.getFator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoControle.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoControle.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,5,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoControle.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,33,49,16,,,38,,,,,,,,5,5,5,3,,1,1,,50,50,0.00,20,20,20,10
+Public Method,br....gestaoriscos.model.AvaliacaoControle.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,7,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoControle.setFator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,7,3,0,4,7,1,,,6,,,3,3,3,3,2,,,,,2,,1,2,,,0.00,3,3,3,3
+Public Method,br....gestaoriscos.model.AvaliacaoControle.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,4,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoControle.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoControle.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,5,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Class,br....gestaoriscos.model.AvaliacaoRisco,1,1,1,1,3,0,3,0,1,15,15,0,,0,0,,,,22,11,,,,22,22,0,0,0,22,,125,,,,34,,,,91,,,46,22,0,,,,8,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getAvaliacaoControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,15,2,0,9,11,3,,,10,,,5,5,5,1,1,,,,,0,,1,0,,,0.00,5,5,5,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getCausa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,10,2,0,7,9,3,,,8,,,4,4,4,1,1,,,,,0,,1,0,,,0.00,4,4,4,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getConsequencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,20,35,15,,,25,,,,,,,,2,2,2,1,,1,1,,0,0,0.00,14,14,14,8
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getControles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,8,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getData,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,8,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getImpacto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getPeriodicidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getProbabilidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.getRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setAvaliacaoControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,4,8,5,,,3,,,,,,,,1,1,1,1,,1,0,,33,33,0.00,3,3,3,3
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setCausa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setConsequencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setControles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setData,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,84,128,78,,,51,,,,,,,,1,1,1,1,,,0,,,,0.00,35,35,35,35
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,28,44,24,,,21,,,,,,,,1,1,1,1,,1,0,,75,75,0.00,8,8,8,8
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setImpacto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,16,23,11,,,13,,,,,,,,1,1,1,1,,1,0,,66,66,0.00,6,6,6,6
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setPeriodicidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setProbabilidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,6,1,0,6,7,2,,,6,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.AvaliacaoRisco.setRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.CategoriaRisco,1,1,1,1,3,0,3,0,1,8,8,0,,0,0,,,,8,4,,,,8,8,0,0,0,8,,49,,,,14,,,,35,,,18,8,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.CategoriaRisco.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.CategoriaRisco.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.CategoriaRisco.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.CategoriaRisco.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.CategoriaRisco.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.CategoriaRisco.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.CategoriaRisco.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.CategoriaRisco.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.Impacto,1,1,1,1,3,0,3,0,1,11,11,0,,0,0,,,,14,5,,,,14,14,0,0,0,14,,82,,,,20,,,,62,,,29,19,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.model.Impacto.Impacto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,1,,,,2,,,1,0,0,,,,,,,1,3,2,,,1,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.model.Impacto.Impacto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,,,,0,,,,6,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.equals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,2,4,0,,,,,,,8,13,7,,,6,,,,,,,,1,1,1,1,,2,0,,25,25,0.00,4,4,4,4
+Public Method,br....gestaoriscos.model.Impacto.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.getPeso,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,1,3,2,,,1,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.hashCode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,1,3,2,,,1,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,1,3,2,,,1,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.setPeso,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Impacto.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,,,,10,15,8,,,7,,,,,,,,1,1,1,1,,2,0,,50,50,0.00,4,4,4,4
+Public Class,br....gestaoriscos.model.NivelRisco,1,1,1,1,3,0,3,0,1,18,18,0,,0,0,,,,27,10,,,,27,27,0,0,0,27,,165,,,,37,,,,127,,,50,44,1,,,,5,1,0,4,5,1,,,4,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.model.NivelRisco.NivelRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,1,,,,2,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.model.NivelRisco.NivelRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,11,,,,0,,,,11,,,2,8,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.addAllRespostasRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,,,,0,,,,10,,,1,5,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.addRespostaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,8,,,1,4,0,,,,,,,18,28,15,,,13,,,,,,,,1,1,1,1,,1,0,,66,66,0.00,9,9,9,9
+Public Method,br....gestaoriscos.model.NivelRisco.equals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,2,4,0,,,,5,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getCor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getPeriodicidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getRespostasRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getValorFinal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.getValorInicial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,603,1012,549,,,463,,,,,,,,4,4,4,3,,,2,,,,0.00,383,383,387,328
+Public Method,br....gestaoriscos.model.NivelRisco.hashCode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,29,52,28,,,24,,,,,,,,2,2,2,1,,1,1,,87,87,0.00,22,22,22,19
+Public Method,br....gestaoriscos.model.NivelRisco.isApetite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.NivelRisco.removeAllRespostaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.NivelRisco.removeRespostaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.setApetite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.setCor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.setPeriodicidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.NivelRisco.setValorFinal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.NivelRisco.setValorInicial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.Ocorrencia,1,1,1,1,3,0,3,0,1,11,11,0,,0,0,,,,16,8,,,,16,16,0,0,0,16,,91,,,,24,,,,67,,,34,16,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.getData,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.getPlanoContingencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.getResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.getResultados,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.getRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,12,21,13,,,8,,,,,,,,1,1,1,1,,1,0,,75,75,0.00,8,8,8,8
+Public Method,br....gestaoriscos.model.Ocorrencia.getSolucao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.setData,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.setPlanoContingencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.setResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.setResultados,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.setRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Ocorrencia.setSolucao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,19,32,18,,,14,,,,,,,,1,1,1,1,,1,0,,76,76,0.00,12,12,12,12
+Public Enum Type,br....gestaoriscos.model.Periodicidade,1,1,1,1,1,0,1,0,1,1,1,0,,0,0,,,,4,9,,,,4,4,0,1,0,3,,20,,,,4,,,,16,,,12,2,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br....gestaoriscos.model.Periodicidade.Periodicidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,5,1,0,4,5,1,,,4,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Periodicidade.getPeriocidadeAvaliacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Periodicidade.valueOf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,0,,,,0,,,0,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Periodicidade.values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,0,,,,0,,,0,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.Plano,1,1,1,1,5,0,5,0,1,18,18,0,,0,0,,,,43,12,,,,43,43,0,0,0,43,,313,,,,59,,,,254,,,69,111,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.model.Plano.Plano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.model.Plano.Plano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,,,,0,,,,7,,,1,5,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addAllAreas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,,,,0,,,,9,,,1,5,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addAllAvaliacaoControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,,,,1,,,,9,,,1,5,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addAllCategorias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,,,,1,,,,9,,,1,5,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addAllImpacto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,,,,1,,,,9,,,1,5,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addAllNivelRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,,,,0,,,,9,,,1,5,0,,,,,,,33,56,34,,,22,,,,,,,,1,1,1,1,,1,0,,90,90,0.00,22,22,22,22
+Public Method,br....gestaoriscos.model.Plano.addAllProbabilidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,,,,1,,,,9,,,1,5,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addAllRespostasRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,,,,0,,,,9,,,1,5,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addArea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addAvaliacaoControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addCategoriaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addImpacto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addNivelRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addProbabilidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.addRespostaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getAreas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getAvaliacoesControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getCategoriasRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getDataFim,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getDataInicio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getImpactoByName,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getImpactos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getNiveisRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getNivelRiscoByName,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getProbabilidadeByName,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.getProbabilidades,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,12,21,13,,,8,,,,,,,,1,1,1,1,,1,0,,75,75,0.00,8,8,8,8
+Public Method,br....gestaoriscos.model.Plano.getRespostasRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.removeArea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.removeAvaliacaoControle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.removeCategoriaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.removeImpacto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.removeNivelRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.removeProbabilidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.removeRespostaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.setDataFim,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,24,41,21,,,20,,,,,,,,3,3,4,3,,1,1,,77,77,0.00,16,16,17,16
+Public Method,br....gestaoriscos.model.Plano.setDataInicio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,5,1,0,4,5,1,,,4,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Plano.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,3,0,4,7,2,,,5,,,3,3,4,3,2,,,,,2,,1,2,,,0.00,3,3,4,3
+Public Method,br....gestaoriscos.model.Plano.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.PlanoContingencia,1,1,1,1,3,0,3,0,1,8,8,0,,0,0,,,,10,5,,,,10,10,0,0,0,10,,58,,,,15,,,,43,,,22,10,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.getAcao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.getGatilho,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.getResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.getRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.setAcao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.setGatilho,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.setResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoContingencia.setRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,48,85,40,,,45,,,,,,,,4,4,4,3,,1,2,,87,87,0.01,35,35,36,29
+Public Class,br....gestaoriscos.model.PlanoTratamentoRisco,1,1,1,1,3,0,3,0,1,9,9,0,,0,0,,,,20,10,,,,20,20,0,0,0,20,,109,,,,30,,,,79,,,38,20,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getCustos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,9,1,0,8,9,1,,,8,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getDataPlanejamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,6,1,2,7,2,,,5,,,4,4,4,1,0,,,,,0,,2,0,,,0.00,4,4,4,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,3,4,1,2,5,1,,,4,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getInicio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,3,0,4,7,2,,,5,,,3,3,4,3,2,,,,,2,,1,2,,,0.00,3,3,4,3
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getJustificativa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getMonitoramento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getPlanoAcao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getRespostaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.getTermino,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setCustos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setDataPlanejamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setInicio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setJustificativa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setMonitoramento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setPlanoAcao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setRespostaRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.PlanoTratamentoRisco.setTermino,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.Probabilidade,1,1,1,1,3,0,3,0,1,11,11,0,,0,0,,,,14,5,,,,14,14,0,0,0,14,,82,,,,20,,,,62,,,29,19,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.model.Probabilidade.Probabilidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,1,,,,2,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br....gestaoriscos.model.Probabilidade.Probabilidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,,,,0,,,,6,,,1,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.equals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,2,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,,,,24,41,25,,,16,,,,,,,,1,1,1,1,,1,0,,87,87,0.00,16,16,16,16
+Public Method,br....gestaoriscos.model.Probabilidade.getPeso,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.hashCode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.setPeso,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Probabilidade.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.RespostaRisco,1,1,1,1,3,0,3,0,1,11,11,0,,0,0,,,,16,7,,,,16,16,0,0,0,16,,91,,,,23,,,,68,,,33,19,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.equals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,2,4,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.getDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.hashCode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.isAmeaca,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.isOportunidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,4,6,4,,,2,,,,,,,,1,1,1,1,,1,0,,,,0.00,4,4,4,4
+Public Method,br....gestaoriscos.model.RespostaRisco.isPlanoTratamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.setAmeaca,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.setDescricao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,0,0,0,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,0,0,0,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,89,177,66,,,111,,,,,,,,3,3,3,3,,1,2,,91,91,0.00,77,77,77,49
+Public Method,br....gestaoriscos.model.RespostaRisco.setOportunidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,6,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.RespostaRisco.setPlanoTratamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Class,br....gestaoriscos.model.Risco,1,1,1,1,4,0,4,0,1,24,24,0,,0,0,,,,42,13,,,,42,42,0,0,0,42,,290,,,,68,,,,222,,,76,86,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Constructor,br....gestaoriscos.model.Risco.Risco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Constructor,br....gestaoriscos.model.Risco.Risco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,17,,,,0,,,,17,,,4,12,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Method,br....gestaoriscos.model.Risco.addAcao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,3,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Method,br....gestaoriscos.model.Risco.addAcoes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,1,,,,6,,,1,3,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Method,br....gestaoriscos.model.Risco.addAllAvaliacoes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,,,,2,,,,9,,,1,5,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Method,br....gestaoriscos.model.Risco.addAllCategorias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,3,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.addAllContingencias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,,,,1,,,,9,,,1,5,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.addAllOcorrencias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,,,,1,,,,9,,,1,5,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.addAvaliacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.addCategoria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,3,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.addContingencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.addOcorrencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,4,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.getAcoes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getAvaliacoes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getCategorias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getContingencias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getOcorrencias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getPeriodicidadeAvaliacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,3,0,2,6,2,,,4,,,3,3,3,3,3,,,,,3,,2,3,,,0.00,3,3,3,3
+Public Method,br....gestaoriscos.model.Risco.getPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getPlanoTratamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,3,0,2,6,2,,,4,,,3,3,3,3,3,,,,,3,,2,3,,,0.00,3,3,3,3
+Public Method,br....gestaoriscos.model.Risco.getTipo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.getUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,3,0,2,6,2,,,4,,,3,3,3,3,3,,,,,3,,2,3,,,0.00,3,3,3,3
+Public Method,br....gestaoriscos.model.Risco.removeAcao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.removeAvaliacaoRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.removeCategoria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.removeContingencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.removeOcorrencia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,2,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.setAcoes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.setAvaliacoes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.setContingencias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br....gestaoriscos.model.Risco.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.setOcorrencias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.setPeriodicidadeAvaliacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.setPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.setPlanoTratamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.setResponsavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,15,26,16,,,10,,,,,,,,1,1,1,1,,1,0,,80,80,0.00,10,10,10,10
+Public Method,br....gestaoriscos.model.Risco.setTipo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Risco.setUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Enum Type,br....gestaoriscos.model.TipoRisco,1,1,1,1,1,0,1,0,1,1,1,0,,0,0,,,,4,3,,,,4,4,1,0,0,3,,18,,,,7,,,,11,,,6,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Constructor,br....gestaoriscos.model.TipoRisco.TipoRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.TipoRisco.getTipo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.TipoRisco.valueOf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,0,,,,0,,,0,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.TipoRisco.values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,0,,,,0,,,0,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.Unidade,1,1,1,1,3,0,3,0,1,8,8,0,,0,0,,,,14,7,,,,14,14,0,0,0,14,,81,,,,22,,,,59,,,31,14,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.getChefe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,30,51,31,,,20,,,,,,,,1,1,1,1,,1,0,,90,90,0.00,20,20,20,20
+Public Method,br....gestaoriscos.model.Unidade.getSigla,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.getUnidadePai,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.getViceChefe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.isExcluida,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.setChefe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.setExcluida,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.setSigla,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.setUnidadePai,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Unidade.setViceChefe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.model.Usuario,1,1,1,1,3,0,3,0,2,14,14,0,,0,0,,,,21,7,,,,21,21,0,0,0,21,,116,,,,29,,,,87,,,45,21,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getAuthorities,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getCargo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getEmail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getPassword,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getRoles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.getUsername,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,,,,24,41,21,,,20,,,,,,,,3,3,4,3,,1,1,,77,77,0.00,16,16,17,16
+Public Method,br....gestaoriscos.model.Usuario.isAccountNonExpired,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.isAccountNonLocked,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,5,1,0,4,5,1,,,4,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.isCredentialsNonExpired,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,3,3,0,4,7,2,,,5,,,3,3,4,3,2,,,,,2,,1,2,,,0.00,3,3,4,3
+Public Method,br....gestaoriscos.model.Usuario.isEnabled,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.isHabilitado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.setCargo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.setEmail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.setHabilitado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.setId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.setNome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.setPassword,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.model.Usuario.setUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Package,br....gestaoriscos.repository,0,0,0,0,0,0,0,0,,,,,16,0,0,,16,,26,0,,,,26,,26,0,0,0,,301,,,,92,,,,208,,,192,0,1,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.AcaoRepository,0,0,0,0,0,0,0,0,1,3,3,0,,0,0,,,,1,0,,,,1,1,1,0,0,0,,5,,,,2,,,,3,,,2,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.AcaoRepository.findByPlanoAndUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,26,45,25,,,20,,,,,,,,3,3,4,3,,1,1,,85,85,0.00,18,18,19,18
+Public Interface,br....gestaoriscos.repository.AreaAtuacaoRepository,0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,1,0,,,,1,1,1,0,0,0,,5,,,,2,,,,3,,,2,0,0,,,,3,3,0,4,7,2,,,5,,,3,3,4,3,2,,,,,2,,1,2,,,0.00,3,3,4,3
+Abstract Method,br....gestaoriscos.repository.AreaAtuacaoRepository.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.AvaliacaoControleRepository,0,0,0,0,0,0,0,0,1,4,4,0,,0,0,,,,1,0,,,,1,1,1,0,0,0,,6,,,,2,,,,4,,,3,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.AvaliacaoControleRepository.findByPlanoId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.AvaliacaoRepository,0,0,0,0,0,0,0,0,1,6,6,0,,0,0,,,,4,0,,,,4,4,4,0,0,0,,17,,,,5,,,,12,,,11,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.AvaliacaoRepository.buscaAvalicoesRecentes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.AvaliacaoRepository.findByRiscoIdOrderByDataDesc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.AvaliacaoRepository.findFirstByRiscoIdOrderByDataDesc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.AvaliacaoRepository.findRiscoValor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.CategoriaRiscoRepository,0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,1,0,,,,1,1,1,0,0,0,,5,,,,2,,,,3,,,2,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.CategoriaRiscoRepository.findByPlanoId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.ImpactoRepository,0,0,0,0,0,0,0,0,1,4,4,0,,0,0,,,,2,0,,,,2,2,2,0,0,0,,9,,,,3,,,,6,,,5,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.ImpactoRepository.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.ImpactoRepository.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.NivelRiscoRepository,0,0,0,0,0,0,0,0,1,5,5,0,,0,0,,,,2,0,,,,2,2,2,0,0,0,,10,,,,3,,,,6,,,5,0,1,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.NivelRiscoRepository.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.NivelRiscoRepository.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,81,145,59,,,86,,,,,,,,3,3,3,1,,1,1,,91,90,0.00,60,60,60,42
+Public Interface,br....gestaoriscos.repository.OcorrenciaRepository,0,0,0,0,0,0,0,0,1,6,6,0,,0,0,,,,4,0,,,,4,4,4,0,0,0,,26,,,,5,,,,21,,,20,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.OcorrenciaRepository.buscaOcorrenciaData,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,13,1,0,12,13,1,,,12,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.OcorrenciaRepository.buscaOcorrenciaDataUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.repository.OcorrenciaRepository.buscaOcorrenciaUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.repository.OcorrenciaRepository.findOcorrenciaByRiscoId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Interface,br....gestaoriscos.repository.PlanoContigenciaRepository,0,0,0,0,0,0,0,0,1,3,3,0,,0,0,,,,1,0,,,,1,1,1,0,0,0,,4,,,,1,,,,3,,,2,0,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.repository.PlanoContigenciaRepository.findPlanoByRiscoId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Interface,br....gestaoriscos.repository.PlanoDeTratamentoRepository,0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,,,,0,0,0,0,0,0,,3,,,,1,,,,2,,,1,0,0,,,,3,4,1,3,7,2,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Interface,br....gestaoriscos.repository.PlanoRepository,0,0,0,0,0,0,0,0,1,5,5,0,,0,0,,,,3,0,,,,3,3,3,0,0,0,,9,,,,3,,,,6,,,5,0,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.repository.PlanoRepository.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.repository.PlanoRepository.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.repository.PlanoRepository.findFirstByOrderByDataFimDesc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,3,2,0,3,5,1,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Interface,br....gestaoriscos.repository.ProbabilidadeRepository,0,0,0,0,0,0,0,0,1,4,4,0,,0,0,,,,2,0,,,,2,2,2,0,0,0,,8,,,,2,,,,6,,,5,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.ProbabilidadeRepository.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.ProbabilidadeRepository.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.RespostaRiscoRepository,0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,1,0,,,,1,1,1,0,0,0,,5,,,,2,,,,3,,,2,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.RespostaRiscoRepository.findByPlanoId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.RiscoRepository,0,0,0,0,0,0,0,0,1,6,6,0,,0,0,,,,2,0,,,,2,2,2,0,0,0,,8,,,,3,,,,5,,,4,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.RiscoRepository.buscaRiscoUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.RiscoRepository.findByPlanoAndUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.UnidadeRepository,0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,,,,0,0,0,0,0,0,,5,,,,3,,,,2,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.repository.UsuarioRepository,0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,1,0,,,,1,1,1,0,0,0,,5,,,,2,,,,3,,,2,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.repository.UsuarioRepository.findByEmail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Package,br....gestaoriscos.service,0,0,0,0,0,0,0,0,,,,,17,0,0,,17,,103,0,,,,103,,103,0,0,0,,418,,,,174,,,,235,,,218,0,9,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.AcaoService,0,0,0,0,0,0,0,0,0,5,5,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,16,,,,8,,,,8,,,7,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AcaoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.service.AcaoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.service.AcaoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.service.AcaoService.findByUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.service.AcaoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,2,0,1,3,1,,,2,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Abstract Method,br....gestaoriscos.service.AcaoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.AreaAtuacaoService,0,0,0,0,0,0,0,0,0,5,5,1,,0,0,,,,5,0,,,,5,5,5,0,0,0,,12,,,,5,,,,7,,,6,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AreaAtuacaoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AreaAtuacaoService.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AreaAtuacaoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AreaAtuacaoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AreaAtuacaoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.AvaliacaoControleService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,16,,,,8,,,,8,,,7,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoControleService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoControleService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoControleService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoControleService.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoControleService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,,,,4,6,4,,,2,,,,,,,,1,1,1,1,,1,0,,,,0.00,4,4,4,4
+Abstract Method,br....gestaoriscos.service.AvaliacaoControleService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.AvaliacaoRiscoService,0,0,0,0,0,0,0,0,0,4,4,0,,0,0,,,,8,0,,,,8,8,8,0,0,0,,19,,,,9,,,,10,,,9,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoRiscoService.buscaAvalicoesRecentes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,0,0,0,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoRiscoService.buscarAvaliacoesRisco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,0,0,0,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoRiscoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,,,,21,36,22,,,14,,,,,,,,1,1,1,1,,1,0,,85,85,0.00,14,14,14,14
+Abstract Method,br....gestaoriscos.service.AvaliacaoRiscoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoRiscoService.findAvaliacaoRecente,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoRiscoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoRiscoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoRiscoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.AvaliacaoService,0,0,0,0,0,0,0,0,0,6,6,1,,0,0,,,,8,0,,,,8,8,8,0,0,0,,19,,,,9,,,,10,,,9,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoService.buscaAvalicoesRecentes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoService.countRiscos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoService.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoService.findLast,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.AvaliacaoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.CategoriaRiscoService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,16,,,,8,,,,8,,,7,0,0,,,,,,,28,50,29,,,21,,,,,,,,1,1,1,1,,1,0,,89,89,0.00,21,21,21,21
+Abstract Method,br....gestaoriscos.service.CategoriaRiscoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.CategoriaRiscoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.CategoriaRiscoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.CategoriaRiscoService.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.CategoriaRiscoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.CategoriaRiscoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.ImpactoService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,16,,,,8,,,,8,,,7,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.ImpactoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.ImpactoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.ImpactoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.ImpactoService.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.ImpactoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.ImpactoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.NivelRiscoService,0,0,0,0,0,0,0,0,0,5,5,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,14,,,,6,,,,8,,,7,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.NivelRiscoService.countNiveis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.NivelRiscoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.NivelRiscoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.NivelRiscoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.NivelRiscoService.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.NivelRiscoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Interface,br....gestaoriscos.service.OcorrenciaService,0,0,0,0,0,0,0,0,0,6,6,1,,0,0,,,,7,0,,,,7,7,7,0,0,0,,17,,,,8,,,,9,,,8,0,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Abstract Method,br....gestaoriscos.service.OcorrenciaService.buscaOcorrenciaData,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,130,146,146,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.OcorrenciaService.buscaOcorrenciaDataUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,1,2,2,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.OcorrenciaService.buscaOcorrenciaUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.OcorrenciaService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,1,2,2,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.OcorrenciaService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.OcorrenciaService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,,,,1,2,2,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.OcorrenciaService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Interface,br....gestaoriscos.service.PlanoContigenciaService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,19,,,,7,,,,8,,,7,0,4,,,,,,,4,5,5,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoContigenciaService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoContigenciaService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoContigenciaService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoContigenciaService.findOne,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoContigenciaService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,1,2,2,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoContigenciaService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Interface,br....gestaoriscos.service.PlanoService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,15,,,,7,,,,8,,,7,0,0,,,,,,,2,3,3,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,2,3,3,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.17,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoService.findVigente,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,,,,4,5,5,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Public Interface,br....gestaoriscos.service.PlanoTratamentoRiscoService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,20,,,,8,,,,8,,,7,0,4,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoTratamentoRiscoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoTratamentoRiscoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoTratamentoRiscoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoTratamentoRiscoService.findOne,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,,,,1,2,2,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoTratamentoRiscoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.PlanoTratamentoRiscoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,0,1,1,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Public Interface,br....gestaoriscos.service.ProbabilidadeService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,6,0,,,,6,6,6,0,0,0,,16,,,,8,,,,8,,,7,0,0,,,,,,,3,4,4,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.ProbabilidadeService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.ProbabilidadeService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.ProbabilidadeService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.ProbabilidadeService.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,2,3,3,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.ProbabilidadeService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.ProbabilidadeService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Interface,br....gestaoriscos.service.RespostaRiscoService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,5,0,,,,5,5,5,0,0,0,,12,,,,5,,,,7,,,6,0,0,,,,,,,1,2,2,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RespostaRiscoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RespostaRiscoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,2,3,3,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RespostaRiscoService.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RespostaRiscoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RespostaRiscoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,,,,0,1,1,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Public Interface,br....gestaoriscos.service.RiscoService,0,0,0,0,0,0,0,0,0,7,7,1,,0,0,,,,7,0,,,,7,7,7,0,0,0,,16,,,,7,,,,9,,,8,0,0,,,,,,,1,2,2,,,0,,,,,,,,0,0,0,0,,2,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RiscoService.buscaRiscoUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RiscoService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,190,207,207,,,0,,,,,,,,0,0,0,0,,,0,,,,0.04,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RiscoService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,,,,0,,,,1,,,1,0,0,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RiscoService.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RiscoService.findByUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RiscoService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.RiscoService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Interface,br....gestaoriscos.service.UnidadeService,0,0,0,0,0,0,0,0,0,4,4,1,,0,0,,,,7,0,,,,7,7,7,0,0,0,,17,,,,8,,,,9,,,8,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UnidadeService.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UnidadeService.findAcoes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,,,,5,6,6,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UnidadeService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UnidadeService.findOne,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UnidadeService.listarRiscosUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UnidadeService.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UnidadeService.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Interface,br....gestaoriscos.service.UsuarioService,0,0,0,0,0,0,0,0,0,3,3,1,,0,0,,,,2,0,,,,2,2,2,0,0,0,,9,,,,4,,,,4,,,3,0,1,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UsuarioService.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br....gestaoriscos.service.UsuarioService.findByEmail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Package,br....gestaoriscos.service.impl,1,1,1,1,3,0,3,0,,,,,17,0,0,,17,,97,25,,,,97,,0,0,0,97,,847,,,,203,,,,644,,,417,116,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.AcaoServiceImpl,1,1,1,1,3,0,3,0,2,8,8,0,,0,0,,,,6,1,,,,6,6,0,0,0,6,,38,,,,9,,,,29,,,15,6,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AcaoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,,,,0,,,,4,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AcaoServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AcaoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,8,9,9,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AcaoServiceImpl.findByUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AcaoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AcaoServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.AreaAtuacaoServiceImpl,1,1,1,1,3,0,3,0,2,9,9,0,,0,0,,,,5,2,,,,5,5,0,0,0,5,,37,,,,10,,,,27,,,15,6,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AreaAtuacaoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,,,,1,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AreaAtuacaoServiceImpl.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AreaAtuacaoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AreaAtuacaoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AreaAtuacaoServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,,,,1,,,,3,,,1,1,0,,,,,,,8,9,9,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.AvaliacaoControleServiceImpl,1,1,1,1,3,0,3,0,2,8,8,0,,0,0,,,,6,2,,,,6,6,0,0,0,6,,40,,,,9,,,,31,,,17,7,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoControleServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoControleServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoControleServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoControleServiceImpl.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoControleServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoControleServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.AvaliacaoServiceImpl,1,1,1,1,3,0,3,0,2,11,11,0,,0,0,,,,8,1,,,,8,8,0,0,0,8,,54,,,,13,,,,41,,,21,12,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoServiceImpl.buscaAvalicoesRecentes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,,,,1,,,,8,,,3,5,0,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoServiceImpl.countRiscos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoServiceImpl.find,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoServiceImpl.findLast,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.AvaliacaoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.CategoriaRiscoServiceImpl,1,1,1,1,3,0,3,0,2,8,8,0,,0,0,,,,6,2,,,,6,6,0,0,0,6,,40,,,,9,,,,31,,,17,7,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.CategoriaRiscoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.CategoriaRiscoServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.CategoriaRiscoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.CategoriaRiscoServiceImpl.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.CategoriaRiscoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.CategoriaRiscoServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.ImpactoServiceImpl,1,1,1,1,3,0,3,0,2,8,8,0,,0,0,,,,6,2,,,,6,6,0,0,0,6,,40,,,,9,,,,31,,,17,7,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ImpactoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ImpactoServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ImpactoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ImpactoServiceImpl.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ImpactoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ImpactoServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,7,8,8,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.NivelRiscoServiceImpl,1,1,1,1,2,0,2,0,2,9,9,0,,0,0,,,,6,2,,,,6,6,0,0,0,6,,38,,,,9,,,,29,,,17,7,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.NivelRiscoServiceImpl.countNiveis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.NivelRiscoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.NivelRiscoServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.NivelRiscoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.NivelRiscoServiceImpl.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.NivelRiscoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.OcorrenciaServiceImpl,1,1,1,1,3,0,3,0,2,9,9,0,,0,0,,,,7,1,,,,7,7,0,0,0,7,,42,,,,10,,,,32,,,17,7,0,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.50,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.OcorrenciaServiceImpl.buscaOcorrenciaData,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.OcorrenciaServiceImpl.buscaOcorrenciaDataUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.OcorrenciaServiceImpl.buscaOcorrenciaUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.OcorrenciaServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.OcorrenciaServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.OcorrenciaServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.OcorrenciaServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.PlanoContigenciaServiceImp,1,1,1,1,3,0,3,0,2,7,7,0,,0,0,,,,6,1,,,,6,6,0,0,0,6,,36,,,,8,,,,28,,,15,6,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoContigenciaServiceImp.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoContigenciaServiceImp.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoContigenciaServiceImp.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoContigenciaServiceImp.findOne,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoContigenciaServiceImp.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoContigenciaServiceImp.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.50,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.PlanoServiceImpl,1,1,1,1,3,0,3,0,2,7,7,0,,0,0,,,,6,1,,,,6,6,0,0,0,6,,37,,,,9,,,,28,,,15,6,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoServiceImpl.findVigente,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,,,,6,7,7,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.PlanoTratamentoRiscoImpl,1,1,1,1,3,0,3,0,2,7,7,0,,0,0,,,,6,1,,,,6,6,0,0,0,6,,40,,,,9,,,,31,,,15,8,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoTratamentoRiscoImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoTratamentoRiscoImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoTratamentoRiscoImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoTratamentoRiscoImpl.findOne,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoTratamentoRiscoImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.PlanoTratamentoRiscoImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,3,0,,,,,,,5,6,6,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.ProbabilidadeServiceImpl,1,1,1,1,3,0,3,0,2,8,8,0,,0,0,,,,6,2,,,,6,6,0,0,0,6,,40,,,,9,,,,31,,,17,7,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ProbabilidadeServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ProbabilidadeServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ProbabilidadeServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ProbabilidadeServiceImpl.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ProbabilidadeServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,,,,7,8,8,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.ProbabilidadeServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.RespostaRiscoServiceImpl,1,1,1,1,2,0,2,0,2,8,8,0,,0,0,,,,5,2,,,,5,5,0,0,0,5,,32,,,,8,,,,24,,,14,6,0,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RespostaRiscoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RespostaRiscoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,0,,,,1,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RespostaRiscoServiceImpl.findByPlano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RespostaRiscoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,0,,,,4,,,1,2,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RespostaRiscoServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.RiscoServiceImpl,1,1,1,1,3,0,3,0,2,10,10,0,,0,0,,,,7,1,,,,7,7,0,0,0,7,,41,,,,9,,,,32,,,17,7,0,,,,,,,7,8,8,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RiscoServiceImpl.buscaRiscoUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RiscoServiceImpl.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RiscoServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RiscoServiceImpl.findById,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RiscoServiceImpl.findByUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RiscoServiceImpl.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.RiscoServiceImpl.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Enum Type,br....gestaoriscos.service.impl.TipoRisco,1,1,1,1,0,0,0,0,1,1,1,0,,0,0,,,,2,2,,,,2,2,0,0,0,2,,6,,,,3,,,,3,,,2,0,0,,,,,,,2,3,3,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,0.25,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.TipoRisco.valueOf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,0,,,,0,,,0,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Method,br....gestaoriscos.service.impl.TipoRisco.values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,0,,,,0,,,0,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Class,br....gestaoriscos.service.impl.UnidadeServiceImp,1,1,1,1,4,0,4,0,2,8,8,0,,0,0,,,,7,1,,,,7,7,0,0,0,7,,53,,,,10,,,,43,,,18,15,0,,,,,,,280,397,284,,,116,,,,,,,,2,2,2,1,,,1,,,,0.00,102,102,102,97
+Public Method,br....gestaoriscos.service.impl.UnidadeServiceImp.delete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,,,,0,,,,8,,,2,5,0,,,,,,,7,14,8,,,6,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,6,6,6,6
+Public Method,br....gestaoriscos.service.impl.UnidadeServiceImp.findAcoes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.service.impl.UnidadeServiceImp.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.service.impl.UnidadeServiceImp.findOne,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.service.impl.UnidadeServiceImp.listarRiscosUnidade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.service.impl.UnidadeServiceImp.save,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,3,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.service.impl.UnidadeServiceImp.update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,3,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.service.impl.UsuarioServiceImpl,1,1,1,1,3,0,3,0,2,6,6,0,,0,0,,,,2,1,,,,2,2,0,0,0,2,,17,,,,5,,,,12,,,7,2,0,,,,,,,8,14,8,,,6,,,,,,,,1,1,1,1,,1,0,,40,40,0.00,5,5,5,5
+Public Method,br....gestaoriscos.service.impl.UsuarioServiceImpl.findAll,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br....gestaoriscos.service.impl.UsuarioServiceImpl.findByEmail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Package,br....gestaoriscos.utils,1,1,1,1,8,0,8,0,,,,,1,1,0,,1,,0,0,,,,1,,0,0,0,1,,15,,,,2,,,,13,,,7,6,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Class,br....gestaoriscos.utils.UriLocationBuilder,1,1,1,1,8,0,8,0,1,3,3,0,,1,0,,,,0,0,,,,1,1,0,0,0,1,,10,,,,0,,,,10,,,4,6,0,,,,4,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Static Method,br....gestaoriscos.utils.UriLocationBuilder.builder,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,8,,,,0,,,,8,,,3,6,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,16,9,,,7,,,,,,,,1,1,1,1,,1,0,,41,41,0.00,6,6,6,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,23,13,,,12,,,,,,,,2,2,2,1,,1,1,,0,0,0.00,9,9,9,8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,2,0,4,7,4,,,5,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,16,9,,,7,,,,,,,,1,1,1,1,,1,0,,41,41,0.00,6,6,6,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,16,9,,,7,,,,,,,,1,1,1,1,,1,0,,41,41,0.00,6,6,6,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,16,9,,,7,,,,,,,,1,1,1,1,,1,0,,41,41,0.00,6,6,6,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,16,9,,,7,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,7,7,7,7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,8,,,6,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,6,6,6,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,8,,,6,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,6,6,6,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,16,8,,,8,,,,,,,,2,2,2,1,,1,1,,0,0,0.00,7,7,7,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,16,9,,,7,,,,,,,,1,1,1,1,,1,0,,41,41,0.00,6,6,6,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,8,,,6,,,,,,,,1,1,1,1,,1,0,,40,40,0.00,5,5,5,5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,16,9,,,7,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,7,7,7,7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,,,0,,,,,,,,1,1,1,1,,1,0,,,,0.00,2,2,2,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,0,0,0,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,0,0,0,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,24,10,,,15,,,,,,,,2,2,2,1,,1,1,,28,28,0.00,10,10,10,7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,4,6,2,,,5,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,4,,,2,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,2,2,2,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,6,,,2,,,,,,,,1,1,1,1,,,0,,,,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,3,,,2,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,0,2,3,2,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
