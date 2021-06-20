@@ -1,0 +1,21 @@
+Class,LCOM,LCOM Modified,WMC,CC3,MaxNest,SCC,EVG,CBO,CBO Modified,IFANIN BASE CLASSES,NOC,DIT,FANIN,FANOUT
+ArquivoRepository.java,0,0,0,0,0,0,0,0,0,1,0,2,0,0
+AutorController.java,90,89,25,25,30,21,5,22,22,1,0,1,34,45
+Avaliacao.java,12,12,4,4,4,4,0,1,1,1,0,1,5,6
+Email.java,74,74,13,13,13,11,2,3,3,1,0,1,7,9
+Evento.java,91,91,60,60,64,52,2,25,25,1,0,1,15,17
+EventoController.java,86,86,40,40,42,24,1,18,18,1,0,1,27,33
+MinioStorageService.java,0,0,13,13,13,4,1,12,12,2,0,1,7,9
+Modalidade.java,50,50,16,16,16,15,2,7,7,1,0,1,17,22
+ParticipacaoController.java,50,25,4,4,4,2,1,7,7,1,0,1,8,14
+PdfConfig.java,0,0,3,3,3,3,0,2,2,1,0,2,2,5
+PessoaService.java,66,66,12,12,12,9,1,7,7,1,0,1,18,13
+PresencaJsonWrapper.java,0,0,2,2,2,2,0,1,1,1,0,1,1,2
+RevisaoJsonWrapper.java,50,50,4,4,4,4,0,1,1,1,0,1,17,13
+SessaoController.java,57,57,11,11,11,7,1,19,19,1,0,1,12,16
+SpringSecurityConfig.java,75,75,2,2,2,2,0,9,9,1,0,2,12,14
+StorageException.java,0,0,2,2,2,2,0,2,2,1,1,2,1,2
+StorageFileNotFoundException.java,0,0,2,2,2,2,0,2,2,1,0,3,2,2
+SubmissaoRepository.java,0,0,0,0,0,0,0,4,4,1,0,2,1,1
+Trabalho.java,95,94,96,96,113,89,3,23,23,2,0,1,47,51
+TrilhaService.java,66,66,13,13,16,9,2,5,5,1,0,1,27,23
